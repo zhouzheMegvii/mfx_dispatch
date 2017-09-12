@@ -14,7 +14,7 @@ Autotooled version of the opensource Intel media sdk dispatcher.
 autoreconf -i
 ./configure --prefix=/usr
 make -j$(nproc)
-make install
+sudo make install
 ```
 
 # Windows
